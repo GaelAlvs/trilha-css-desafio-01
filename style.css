@@ -17,7 +17,7 @@ header.banner {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 60px;
-    border: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
 }
 
 div.banner-content {
@@ -68,4 +68,47 @@ div.banner-content {
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 2.5px;
+}
+
+main {
+    display: block;
+}
+
+main > #course-content {
+    text-align: center;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+main > #course-content > h2{
+    color: #33A8DB;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 5em 0 1em;
+}
+
+main > #course-content > p{
+    margin: auto;
+    text-align: center;
+    width: 900px;
+    letter-spacing: 1px;
+    margin-bottom: 1.5em;
+}
+
+.modules-list > .module {
+    letter-spacing: 1px;
+    background-color: #252525;
+    width: 500px;
+    height: 50px;
+    margin: 2% auto;
+    padding-top: 15px;
+    border: 1px solid #33A8DB;
+    border-radius: 30px;
+}
+
+.modules-list > .module  > span{
+    color: #33A8DB;
+}
+
+.modules-list > .module:last-child {
+    margin-bottom: 5em;
 }
