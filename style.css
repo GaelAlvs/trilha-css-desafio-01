@@ -1,6 +1,5 @@
 * {
     font-family: 'Raleway', sans-serif;
-    box-sizing: border-box;
     margin: 0;
     color: white;
 }
@@ -8,8 +7,9 @@
 body {
     background-color: black;
     display: block;
-    margin: 8px;
 }
+
+/*              COMEÇO DA ESTILIZAÇÃO DO HEADER                                     */
 
 header.banner {
     height: 600px;
@@ -70,6 +70,8 @@ div.banner-content {
     letter-spacing: 2.5px;
 }
 
+/*              COMEÇO DA ESTILIZAÇÃO DO MAIN                                        */
+
 main {
     display: block;
 }
@@ -111,4 +113,60 @@ main > #course-content > p{
 
 .modules-list > .module:last-child {
     margin-bottom: 5em;
+}
+
+#transform-world {
+    background-image: url(assets/images/woman-code.png);
+    height: 560px;
+    padding: 200px;
+    padding-left: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 1px solid #33A8DB;
+}
+
+#transform-world > p {
+    font-weight: 900;
+    font-size: 2.5em;
+    text-align: justify;
+    text-shadow: #33A8DB 3px 2px;
+    margin-left: 5em;
+    text-transform: lowercase;
+}
+
+#professional-challenges{
+    text-align: center;
+    border-bottom: 1px solid #33A8DB;
+}
+
+#professional-challenges > h2{
+    color: #33A8DB;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 120px;
+}
+
+#professional-challenges > p{
+    margin: auto;
+    font-weight: 500;
+    padding: 80px 0;
+    max-width: 750px;
+}
+
+/*              COMEÇO DA ESTILIZAÇÃO DO FOOTER                                     */
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    
+}
+
+footer > p > a {
+    color: #33A8DB;
+    font-weight: 600;
+    text-decoration: none;
 }
